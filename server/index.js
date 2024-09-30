@@ -48,5 +48,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(env.SERVER_PORT, () => {
-    console.log('Turizmo serveris: http://localhost:' + env.SERVER_PORT);
+    console.log('Aukos serveris: http://localhost:' + env.SERVER_PORT);
 });
