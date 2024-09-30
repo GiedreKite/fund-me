@@ -3,6 +3,7 @@ import { connection } from '../../db.js';
 
 export const fundsListRouter = express.Router();
 
+
 fundsListRouter.get('/', async (req, res) => {
     if (req.user.role !== 'user') {
         return res.json({
